@@ -10,3 +10,6 @@ case $1 in
   *) 
   echo "Not a day!";;
 esac
+
+repl:~/workspace$ bash script.sh Wednesday
+repl:~/workspace$ bash script.sh Saturday
