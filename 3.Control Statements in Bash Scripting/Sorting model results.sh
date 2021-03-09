@@ -10,3 +10,6 @@ fi
 if [ $accuracy -lt 90 ]; then
     mv $1 bad_models/
 fi
+
+repl:~/workspace$ bash script.sh model_results/model_1.txt
+repl:~/workspace$ bash script.sh model_results/model_2.txt
