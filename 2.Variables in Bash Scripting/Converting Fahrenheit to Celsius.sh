@@ -9,3 +9,5 @@ temp_c=$(echo "scale=2; $temp_f2 * 5 / 9" | bc)
 
 # Print the celsius temp
 echo $temp_c
+
+repl:~/workspace$ bash script.sh 108 Fahrenheit
