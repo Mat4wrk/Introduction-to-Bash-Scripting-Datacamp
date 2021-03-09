@@ -7,6 +7,3 @@ do
         mv $file to_keep/
     fi
 done
-
-
-repl:~/workspace$ bash script.sh code_file101.py
